@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>spotify clone</title>
+
+</head>
+
+<body>
+    <header class="black flex vcenter spacebetween">
+        <img src="svg/logo.svg" alt="logo">
+
+        <div class="flex vcenter">
+            <img width="23" src="svg/home.svg" alt="">
+            <img width="23" src="svg/search.svg" alt="">
+
+            <input id="songname" class="backgray" type="text" placeholder="what do you want to play?">
+            <button onclick="getsong()">play</button>
+        </div>
+        <div>
+            <button class="btn btn1">Sign up</button>
+            <button class="btn btn2">Log in</button>
+        </div>
+    </header>
+    <main class="black flex spacearound margintop">
+        <div style="margin-left: 15px;" class="left black1 flex noflex gap">
+            <div class="flex vcenter">
+                <img style="padding: 10px;" width="25" src="svg/libary.svg" alt="" srcset="">
+                <div class="gray">Your Library</div>
+            </div>
+            <div class="margin backgray padding borderadius">
+                <div class="white text">Create Your First Playlist</div>
+                <div class="white text margintop">It's easy, we'll help you</div>
+                <button class="btn btn3">Create Playlist</button>
+            </div>
+            <div class="margin backgray padding borderadius">
+                <div class="white text">Let's find some podcasts to follow</div>
+                <div class="white text margintop">We'll keep you updated on new episodes</div>
+                <button class="btn btn3">Browse podcasts</button>
+            </div>
+            <div class="grid">
+                <div class="text3">Legal</div>
+                <div class="text3">
+                    Safety & Privacy Center
+                </div>
+                <div class="text3"> Privacy Policy
+                </div>
+                <div class="text3"> Cookies
+                </div>
+                <div class="text3"> About Ads
+                </div>
+                <div class="text3"> Accessiblity
+                </div>
+                <div class="text3">Cookies
+                </div>
+            </div>
+
+
+
+        </div>
+        <div  id= "rightside"class="right black1"></div>
+    </main>
+    <script src="script.js"></script>
+   
+
+</body>
+
+</html>
